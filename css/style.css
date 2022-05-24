@@ -151,7 +151,7 @@ html {
 .site-main > .experience-area .experience{
     
     padding: 2rem 0;
-    width: 16rem;
+    width: auto;
     margin: 5rem .5rem;
     transition: box-shadow .7s ease;
     
@@ -211,7 +211,8 @@ html {
 .site-main > .project-area .project{
     background: rgba(245, 241, 242, 0.973);
     padding: 2rem 0;
-    width: 16rem;
+    width: auto;
+    height: auto;
     margin: 5rem .5rem;
     transition: box-shadow .7s ease;
     
@@ -258,6 +259,7 @@ html {
 }
 
 .site-main .subscribe-us-area .contact-img img{
+    
     width: 130px;
     height: 130px;
 }
@@ -299,6 +301,32 @@ html {
     color:black;
 }
 
+.site-main .subscribe-us-area .box4{
+    background-color: rgb(129, 10, 10);
+    background-clip: padding-box;
+    font: normal 500 16px/20px var(--arial);
+    width: auto;
+    height: auto;
+    border:3px solid rgb(129, 10, 10);
+    padding: 50px ;
+    margin: 20px;
+    border-radius: 25px;
+
+    color:whitesmoke;
+    position: relative;
+    
+}
+
+.site-main .subscribe-us-area .contact .box4 p{
+    text-align:center;
+    color: rgb(0, 0, 0);
+}
+
+.site-main .subscribe-us-area .contact .box4 a{
+    text-align:center;
+    color: rgb(221, 221, 221);
+    width: auto;
+}
 
 
 
