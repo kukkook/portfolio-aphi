@@ -66,7 +66,7 @@ html {
 }
 
 .site-main .site-banner .site-title h3{
-    padding-top: 10%;
+    padding-top: 15%;
     font-weight: 400;
     color: rgb(129, 10, 10);
     font-size:3rem;
@@ -96,7 +96,7 @@ html {
 }
 
 .site-main .site-banner .banner-image > img{
-    margin-top: 5%;
+    margin-top: 15%;
     width: 30rem;
     margin-left: 3%;
 }
@@ -114,7 +114,7 @@ html {
 
 
 .site-main .about-area .about-image >img{
-    margin-top: 5%;
+    margin-top: 8%;
     width: 30rem;
 }
 
@@ -258,10 +258,10 @@ html {
     margin-left: auto;
 }
 
-.site-main .subscribe-us-area .contact-img img{
+.site-main .subscribe-us-area .contact .contact-img >img{
     
-    width: 130px;
-    height: 130px;
+    width: 90px;
+    height: 90px;
 }
 
 
@@ -322,8 +322,8 @@ html {
     color: rgb(0, 0, 0);
 }
 
-.site-main .subscribe-us-area .contact .box4 a{
-    text-align:center;
+.site-main .subscribe-us-area .contact a{
+    text-align: center;
     color: rgb(221, 221, 221);
     width: auto;
 }
@@ -354,9 +354,9 @@ footer.footer-area .social h5{
 }
 
 footer.footer-area .social a > i{
-    font-size:22px;
+    font-size:30px;
     padding: 2rem;
-    color: var(--border-color);
+    color: rgb(203, 192, 192);
 }
 
 footer.footer-area .social a:hover > i{
