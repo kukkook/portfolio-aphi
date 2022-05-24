@@ -11,6 +11,10 @@
 html {
     scroll-behavior: smooth;
   }
+
+
+
+
 /* start navigation */ 
 
 
@@ -105,6 +109,7 @@ html {
 
 /* End Banner Area */ 
 
+
 /* Start About Area */ 
 
 .site-main .about-area{
@@ -132,12 +137,11 @@ html {
 
 
 /* Start Experience Area */ 
-
-
 .site-main .experience-area{
     padding: 7rem 2rem;
     margin-top: 5%;
 }
+
 
 .site-main .experience-area .experience-title{
     padding: 0 3rem;
@@ -250,6 +254,10 @@ html {
 /* Subscribe me */ 
 
 
+.site-main .subscribe-us-area{
+    padding: 7rem 2rem;
+    margin-top:3%;
+}
 
 .site-main .subscribe-us-area .subscribe .subscribe-title h1{
     font-size: 35px;
@@ -263,13 +271,6 @@ html {
     width: 90px;
     height: 90px;
 }
-
-
-.site-main .subscribe-us-area{
-    padding: 7rem 2rem;
-    margin-top: 3%;
-}
-
 
 .site-main .subscribe-us-area .col-lg-3{
     display: flex;

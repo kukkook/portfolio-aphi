@@ -60,4 +60,26 @@ $(document).ready(function () {
 
     navbarFixed();
 
+    var about_area = document.getElementById("about_area");
+    about_area.scrollIntoview({
+        behavior: "smooth",
+        block:"start",
+        inline:"nearest"
+    });
+
+    var experience_area = document.getElementById("experience_area");
+    experience_area.scrollIntoview({
+        behavior: "smooth",
+        block:"start",
+        inline:"nearest"
+    });
+
+    var contact_area = document.getElementById("contact_area");
+    contact_area.scrollIntoview({
+        behavior: "smooth",
+        block:"start",
+        inline:"nearest"
+    });
+
+
 });
