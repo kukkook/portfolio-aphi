@@ -281,8 +281,8 @@ html {
     background-color: rgb(129, 10, 10);
     background-clip: padding-box;
     font: normal 500 16px/20px var(--arial);
-    width: auto;
-    height: auto;
+    width: 280px;
+    height:inherit;
     border:3px solid rgb(129, 10, 10);
     padding: 50px ;
     margin: 20px;
@@ -312,7 +312,7 @@ html {
     padding: 50px ;
     margin: 20px;
     border-radius: 25px;
-
+    text-align: center;
     color:whitesmoke;
     position: relative;
     
