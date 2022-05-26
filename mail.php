@@ -1,11 +1,17 @@
 <?php
 //get data from form  
+    
+    $name= $_POST['name'];
+    $email = $_POST['emailaddress'];
+    $message = $_POST['message'];
     $to="aphi-aphinan22@gmail.com";
-    $name=["name"];
-    $message = "message";
-    $from = "youremail@example.com";
-    $header= 'From: '.$name.'' .'Email: '.$from.''."\r\n".
-    'content-type: text/html; charset=utf8'.'X-Mailer: PHP/'.phpversion();
 
-    mail($to,$message,$header);
+    $subject = "Mail from website";
+
+    $txt= "Name: ".$name."\r\n Email: ".$email."\r\n Message: ".$message;
+    $header = "From: noreply@yousite.com" . "\r\n" . "CC: somebody@example.com";
+    if($email!=NULL){
+        mail($to,$subject,$txt,$header);
+    }
+
 ?>
